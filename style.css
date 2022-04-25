@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    margin: 0 auto;
+    width: 697px;
+    font-family: 'Ropa Sans';
+}
+
+
+/* HEADER */
+header {
+    height: 49px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    padding-left: 44px;
+}
+
+.menu {
+    padding-right: 16px;
+}
+
+/* MAIN */
+main {
+    padding: 20px 44px 57px 44px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+.columns>* {
+    width: 256px;
+    background-color: rgba(238, 238, 238, 1);
+}
+
+.preco {
+    margin: 0;
+    font-size: 25px;
+    color: #9b9b9b;
+
+}
+
+.descricao {
+    margin: 0;
+    text-align: justify;
+    font-size: 10px;
+    color: rgba(85, 85, 85, 1);
+    padding: 0 12px 12px 12px;
+    ;
+}
+
+.textoStyle {
+    font-family: 'Ropa Sans';
+    color: #888888;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 13px;
+}
+
+footer {
+    background-color: #333333;
+    display: flex;
+    align-content: center;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: justify;
+    justify-content: space-between;
+    padding: 40px 90px 40px 48px;
+    
+}
+
+.rodape {
+    font-family: "Ropa Sans";
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 608px;
+    height: 80px;
+    opacity: 80%;
+    margin-top: 12px;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+   
+}
+
+.industrial {
+    background-image: url(/img//Rectangle\ 11.png);
+}
+
+.moderno {
+    background-image: url(/img//Rectangle\ 12.png);
+}
+
+.classic {
+    background-image: url(/img//Rectangle\ 13.png);
+}
+
+.icon {
+    padding-right: 15px;
+   
+}
+
+#medias {
+    padding-top: 7px;
+    margin-bottom: 6px;
+}
+
+.condicao {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px;
+    align-items: center;
+}
+
+.sale {
+    background-color: rgba(220, 151, 48, 1);
+    border-radius: 50px;
+    padding: 5px 15px
+    color: #FFFFFF;
+    font-family: "Ropa Sans";
+
+}
+
+.new {
+    background-color: rgba(81, 210, 117, 1);
+    border-radius: 50px;
+    padding: 5px 15px;
+    color: #FFFFFF;
+    font-family: "Ropa Sans";
+
+}
